@@ -1,4 +1,4 @@
-echo "# BMSCE_LAB" >> README.md
+# BMSCE_LAB" >> README.md
   git init
   git add README.md
   git commit -m "first commit"
