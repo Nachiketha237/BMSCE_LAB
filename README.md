@@ -1,4 +1,7 @@
-# BMSCE_LAB" >> README.md
+# BMSCE_LAB" 
+
+basic git commands
+
   ```sh
 git init
 git add README.md
