@@ -1,5 +1,5 @@
 #include <SoftwareSerial.h>
-SoftwareSerialmySerial(9, 10);
+SoftwareSerial mySerial(9, 10);
 #define LEDPIN 12
 char tag[] = "5300292DD087";
 //ReplacewithyourownTagID
