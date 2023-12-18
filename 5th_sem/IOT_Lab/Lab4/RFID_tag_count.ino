@@ -1,4 +1,5 @@
-#include& lt; SoftwareSerial.h & gt;
+#include<SoftwareSerial.h>
+
 SoftwareSerial mySerial(9, 10);
 int read_count = 0, tag_count = 0;
 int j = 0, k = 0;  // Variabvles to iterate in for loops
