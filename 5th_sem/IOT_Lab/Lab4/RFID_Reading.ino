@@ -9,7 +9,7 @@ void setup()
 void loop()
 {
     
- if(mySerial.available()&gt;0)
+ if(mySerial.available()>0)
   {
   Serial.write(mySerial.read());
   }
