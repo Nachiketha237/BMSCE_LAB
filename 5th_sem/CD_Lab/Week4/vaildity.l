@@ -1,3 +1,8 @@
+%{
+#include<stdio.h>
+
+%}
+
 d[0-9]
 %{
  /* d is for recognising digits */
@@ -89,3 +94,8 @@ printf("Rule F : %d \n",c6);
 printf("Rule G : %d \n",c7);
 return 0;
 }
+
+int yywrap()
+{}
+
+
